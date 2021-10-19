@@ -1,1 +1,10 @@
 /* Placeholder */
+.main-top {
+  background-image: url('../img/home/Psyche-Spacecraft.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.learning-btn:hover {
+  background-color: #0dcaf0;
+}
