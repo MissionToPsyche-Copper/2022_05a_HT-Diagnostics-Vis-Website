@@ -5,6 +5,17 @@
   background-size: cover;
 }
 
+.hero-img {
+  background-image: url('../img/home/hero_img.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.top-divider {
+  height: 4rem;
+  border-width: 1px 0;
+}
+
 .learning-btn:hover {
   background-color: #0dcaf0;
 }
