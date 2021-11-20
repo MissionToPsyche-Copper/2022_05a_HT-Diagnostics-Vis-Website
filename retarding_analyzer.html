@@ -2,65 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Thruster Diagnostics Visualization</title>
-  <script src="/lib/jquery-3.6.0.min.js"></script>
-  <script src="/lib/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="/img/logo/Psyche_Icon_BW-SVG.svg">
-  <script src="/js/global.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Thruster Diagnostics Visualization</title>
+	<script src="/lib/jquery-3.6.0.min.js"></script>
+	<script src="/lib/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles.css" />
+	<link rel="icon" type="image/svg+xml" href="/img/logo/Psyche_Icon_BW-SVG.svg">
+	<script src="/js/global.js"></script>
 </head>
 
 <body>
-  <div class="nav-wrapper"></div>
+	<div class="nav-wrapper"></div>
 
-  <div class="container text-dark">
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center main-top">
-      <p class="display-3 fw-bold text-light">Hall Thruster Diagnostics</p>
-      <p class="fs-4 text-light">Perfecting the Thrusters for Psyche </p>
-    </div>
-    <div class="col-lg-8 mx-auto p-3 py-md-4">
-      <p class="h2">Retarding Potential Analyzers</p>
-      <p class="lead">
-        At the lowest level, the Retarding Probe Analyzer (RPA) is a series of mesh grids inside of a metal housing. Its main function is
-        to measure the energy of the ions in the thruster plume. The goal is to create a distribution of the energy of the ions in the plume.
-        Each of the four meshes, the floating grid, electron repulsion grid, ion retarding grid, and electron suppression grid, each have a specific
-        purpose in creating this distribution.
-      </p>
-    </div>
-    <div>
-        <center>
-          <figure>
-            <img class="resizing-image" src="/img/rpa/RPA.png"/>
-            <figcaption>example side-view of the retarding probe analyzer</figcaption>
-          </figure>
-        </center>
-      </div>
-    <div class="col-lg-8 mx-auto p-3 py-md-4">
-      <p class="h2">How it works</p>
-      <p class="lead">
-        Plasma (ions + electrons) enters the front of the RPA through the floating grid.<br>
-        Electrons are stopped by the electron repulsion grid (which is negatively biased) while the ions continue<br>
-        The ion retarding grid is biased positively. Ions with a high enough energy pass through the grid and are measured
-        by the collector while those with lower energy are stopped<br>
-        By varying the bias on this grid, we can map out how many ions have how much energy (i.e., the energy distribution)<br>
-        The RPA is a high-pass filter for ion energy
-      </p>
-    </div>
+	<div class="container text-dark">
+		<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center main-top">
+			<p class="display-3 fw-bold text-light">Hall Thruster Diagnostics</p>
+			<p class="fs-4 text-light">Perfecting the Thrusters for Psyche </p>
+		</div>
+		<div class="col-lg-8 mx-auto p-3 py-md-4">
+			<p class="h2">Retarding Potential Analyzers</p>
+			<p class="lead">
+				At the lowest level, the Retarding Probe Analyzer (RPA) is a series of mesh grids inside of a metal housing. Its
+				main function is to measure the energy of the ions in the thruster plume. The goal is to create a distribution
+				of the energy of the ions in the plume. Each of the four meshes, the floating grid, electron repulsion grid, ion
+				retarding grid, and electron suppression grid, each have a specific purpose in creating this distribution.
+			</p>
+		</div>
+		<div>
+			<center>
+				<figure>
+					<img class="resizing-image" src="/img/rpa/RPA.png" />
+					<figcaption>example side-view of the retarding probe analyzer</figcaption>
+				</figure>
+			</center>
+		</div>
+		<div class="col-lg-8 mx-auto p-3 py-md-4">
+			<p class="h2">How it works</p>
+			<p class="lead">
+			<ul>
+				<li>Plasma (ions + electrons) enters the front of the RPA through the floating grid</li>
+				<li>Electrons are stopped by the electron repulsion grid (which is negatively biased) while the ions
+					continue
+				</li>
+				<li>Since the ion retarding grid is biased positively, ions with high enough energy pass through the grid
+					and are measured by the collector while those with lower energy are stopped</li>
+				<li>By varying the bias on the grid, we can map out how many ions have a certain amount energy (i.e., the energy
+					distribution)</li>
+				<li>In other words, the RPA is a high-pass filter for ions in order to gauge their energy level</li>
+			</ul>
+			</p>
+		</div>
 
-    <div class="row justify-content-center">
-      <div class="col-2">
-        <a href="/simulation.html" class="btn btn-light learning-btn" target="_blank" rel="noopener noreferrer">Launch Simulation
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-            <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-          </svg>
-        </a>
-      </div>
-    </div>
+		<div class="row justify-content-center">
+			<div class="col-2">
+				<a href="/simulation.html" class="btn btn-light learning-btn" target="_blank" rel="noopener noreferrer">Launch
+					Simulation
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right"
+						viewBox="0 0 16 16">
+						<path
+							d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+					</svg>
+				</a>
+			</div>
+		</div>
 
-    <div class="foot-wrapper"></div>
+		<div class="foot-wrapper"></div>
 </body>
+
 </html>
