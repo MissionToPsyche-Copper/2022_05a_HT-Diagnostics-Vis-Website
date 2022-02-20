@@ -26,3 +26,7 @@
 .resizing-image {
   width: 50%;
 }
+
+figure {
+  text-align: center;
+}
