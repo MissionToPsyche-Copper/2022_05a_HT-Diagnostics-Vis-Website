@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RPA Visualization</title>
+  <script src="/lib/jquery-3.6.0.min.js"></script>
+  <script src="/lib/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="UnityAnimations/TemplateData/favicon.ico">
+  <link rel="stylesheet" href="UnityAnimations/TemplateData/style.css">
+  <script src="/js/rpa-vis.js"></script>
+</head>
+
+<body>
+  <main class="container" style="text-align:center">
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
