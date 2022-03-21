@@ -12,16 +12,33 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="icon" type="image/svg+xml" href="/img/logo/Psyche_Icon_BW-SVG.svg">
   <script src="/js/global.js"></script>
+  <script src="/js/faraday-vis.js"></script>
 </head>
 
 <body>
   <div class="nav-wrapper"></div>
 
   <main class="container">
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center main-top">
-      <p class="display-3 fw-bold text-light">Hall Thruster Diagnostics</p>
-      <p class="fs-4 text-light">Perfecting the Thrusters for Psyche </p>
-    </div>
+    <div class="container">
+			<div class="row">
+				<main class="container" style="text-align:center">
+					<div id="unity-container" class="unity-desktop">
+					  <canvas id="unity-canvas" width=960 height=600></canvas>
+					  <div id="unity-loading-bar">
+						<div id="unity-logo"></div>
+						<div id="unity-progress-bar-empty">
+						  <div id="unity-progress-bar-full"></div>
+						</div>
+					  </div>
+					  <div id="unity-warning"> </div>
+					  <div id="unity-footer">
+						<div id="unity-webgl-logo"></div>
+						<div id="unity-fullscreen-button"></div>
+					  </div>
+					</div>
+				  </main>
+			</div>
+
     <div class="col-lg-8 mx-auto p-3 py-md-4">
       <p class="h2">Faraday Probe</p>
       <p class="lead">
@@ -75,6 +92,20 @@
         <li>Laser-produced plasma</li>
       </ul>
     </div>
+
+    <div class="row justify-content-center">
+			<div class="col-2">
+				<a href="/faraday-simulation.html" class="btn btn-light learning-btn" target="_blank"
+					rel="noopener noreferrer">Launch
+					Simulation
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-caret-right" viewBox="0 0 16 16">
+						<path
+							d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+					</svg>
+				</a>
+			</div>
+		</div>
   </main>
 
   <div class="foot-wrapper"></div>
