@@ -23,15 +23,23 @@ Have [Atom](https://atom.io/) already installed and clone the this repository in
 ### Step 2:
 Once the repository is cloned, the necessary packages to run the website from Atom need be installed.
 
+To reach the packages option go to ***File->Settings->Packages***
+
 The first package to be installed is "emmet".
 
 The second package to be installed is "atom-live-server".
+
 ### Step 3:
+Once those two packages are installed you are ready to view the code.
+Open the index.html file and click on the Packages tab, atom-live-server, start server
+***Packages->atom-live-server->Start server***
+
+
 ### Step 4:
-### Step 5:
+Once the liver server is started, it should open to your default web browser. The home screen to the webpage will display and from there you are able to use the website normally.
 
 ## What Was Used
-**Frameworks:** [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) <br />
+**Frameworks:** [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), Unity <br />
 **IDE:** [Atom](https://atom.io/), Visual Studio Code <br />
 **Programming Languages:** HTML, CSS <br />
 
