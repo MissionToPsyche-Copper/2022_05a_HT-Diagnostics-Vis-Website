@@ -16,11 +16,31 @@
 }
 
 .learning-btn:hover {
-  background-color: #0dcaf0;
+  color: #fff;
+  background: linear-gradient(to right, #ff9933 0%, #660066 100%);
+  transition: all .5s ease;
 }
 
-.nav-link:hover {
-  background-color: #0dcaf0;
+.nav-link {
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: linear-gradient(to right, #ff9933 0%, #660066 100%);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .resizing-image {
