@@ -18,7 +18,7 @@
 
 ## Step by Step Guide
 ### Step 1:
-Have [Atom](https://atom.io/) already installed and clone the this repository into Atom.
+Have [Atom](https://atom.io/) already installed and clone this repository into Atom.
 
 ![Guide1](img/GuideScreenshots/1.png)
 
