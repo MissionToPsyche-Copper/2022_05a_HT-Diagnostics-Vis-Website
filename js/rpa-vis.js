@@ -23,10 +23,7 @@ $(() => {
         if (type == 'error') div.style = 'background: red; padding: 10px;';
         else {
             if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-            setTimeout(function () {
-                warningBanner.removeChild(div);
-                updateBannerVisibility();
-            }, 5000);
+            $('#unity-canvas').remove()
         }
         updateBannerVisibility();
     }
