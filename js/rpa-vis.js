@@ -29,8 +29,8 @@ $(() => {
     }
 
     var buildUrl = "UnityAnimations/RPA/Build";
-      var loaderUrl = buildUrl + "/build.loader.js";
-      var config = {
+    var loaderUrl = buildUrl + "/build.loader.js";
+    var config = {
         dataUrl: buildUrl + "/build.data",
         frameworkUrl: buildUrl + "/build.framework.js",
         codeUrl: buildUrl + "/build.wasm",
@@ -39,7 +39,7 @@ $(() => {
         productName: "RPA-Unity-Sim",
         productVersion: "0.1",
         showBanner: unityShowBanner,
-      };
+    };
 
     // By default Unity keeps WebGL canvas render target size matched with
     // the DOM size of the canvas element (scaled by window.devicePixelRatio)

@@ -1,11 +1,11 @@
 .main-top {
-  background-image: url('/img/home/Psyche-Spacecraft.jpg');
+  background-image: url('img/home/Psyche-Spacecraft.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .hero-img {
-  background-image: url('/img/home/hero_img.png');
+  background-image: url('img/home/hero_img.png');
   background-position: center;
   background-size: cover;
 }
@@ -26,6 +26,7 @@
   padding: 15px 20px;
   position: relative;
 }
+
 .nav-link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -38,6 +39,7 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .nav-link:hover::after {
   width: 100%;
   left: 0;
