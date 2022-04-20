@@ -48,7 +48,7 @@ $(() => {
     // the canvas DOM size and WebGL render target sizes yourself.
     // config.matchWebGLToCanvasSize = false;
 
-    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+    if (/iPhone|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
