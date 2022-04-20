@@ -1,11 +1,11 @@
 .main-top {
-  background-image: url('img/home/Psyche-Spacecraft.jpg');
+  background-image: url('/img/home/Psyche-Spacecraft.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .hero-img {
-  background-image: url('img/home/hero_img.png');
+  background-image: url('/img/home/hero_img.png');
   background-position: center;
   background-size: cover;
 }
