@@ -50,8 +50,3 @@
 .list-group-item {
   border: 0;
 }
-
-/* Is this still needed? */
-figure {
-  text-align: center;
-}
