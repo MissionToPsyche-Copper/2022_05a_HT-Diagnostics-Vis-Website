@@ -43,14 +43,15 @@ The second package to be installed is "atom-live-server". If this package does n
 
 ### Step 3:
 Once those two packages are installed you are ready to view the code.
-Open the index.html file and click on the Packages tab, atom-live-server, start server
+Click on the Packages tab, atom-live-server, start server
 ***Packages->atom-live-server->Start server***
 
 ![Guide8](readme_imgs/8.png)
 
 ### Step 4:
-Once the liver server is started, it should open to your default web browser. The home screen to the webpage will display and from there you are able to use the website normally.
+Once the live server is started, it should open to your default web browser. Select the Build folder and from there you are able to use the website normally!
 
+![Guide9](readme_imgs/build_folder.png)
 ![Guide9](readme_imgs/9.png)
 
 ## What Was Used
