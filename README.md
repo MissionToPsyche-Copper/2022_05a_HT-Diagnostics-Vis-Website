@@ -1,4 +1,4 @@
-# 05a_ht_diagnostics_vis
+# 2022_05a_HT-Diagnostics-Vis-Website
 
 ### Webpage explanation of the Hall Thruster Diagnostics
 
