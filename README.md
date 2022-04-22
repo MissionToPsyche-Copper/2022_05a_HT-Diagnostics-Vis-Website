@@ -59,5 +59,5 @@ Once the liver server is started, it should open to your default web browser. Th
 **Programming Languages:** HTML, CSS <br />
 
 ## Known Issues
-Ensure Hardware Acceleration is enabled in the Browser for best performance of the Unity WebGL Simulations.
-Simulations have been disabled for mobile devices.
+1. Ensure Hardware Acceleration is enabled in the Browser for best performance of the Unity WebGL Simulations.
+2. Simulations have been disabled for mobile devices due to technical limitations.
