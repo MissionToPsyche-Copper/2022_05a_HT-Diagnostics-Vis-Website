@@ -38,6 +38,7 @@ The first package to be installed is "emmet".
 ![Guide6](readme_imgs/6.png)
 
 The second package to be installed is "atom-live-server".
+This package can also be found at [https://atom.io/packages/atom-live-server](https://atom.io/packages/atom-live-server)
 
 ![Guide7](readme_imgs/7.png)
 
