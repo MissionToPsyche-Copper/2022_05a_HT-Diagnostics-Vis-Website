@@ -2,8 +2,6 @@
 
 ### Webpage explanation of the Hall Thruster Diagnostics
 
-[Homepage](https://capstone-432.web.app/)
-
 ![Homepage](img/HomepageScreenshot.png)
 
 ## Team Members
@@ -61,10 +59,5 @@ Once the liver server is started, it should open to your default web browser. Th
 **Programming Languages:** HTML, CSS <br />
 
 ## Known Issues
-**Add any issues, or delete this section**
-
-## Video Explanation
-**Better to add a link here after uploading to YouTube either unlisted or public**
-
-## Access to Resources
-[Homepage](https://capstone-432.web.app/)
+Ensure Hardware Acceleration is enabled in the Browser for best performance of the Unity WebGL Simulations.
+Simulations have been disabled for mobile devices.
