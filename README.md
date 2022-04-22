@@ -2,7 +2,7 @@
 
 ### Webpage explanation of the Hall Thruster Diagnostics
 
-![Homepage](img/HomepageScreenshot.png)
+![Homepage](readme_imgs/HomepageScreenshot.png)
 
 ## Team Members
 * Jacob Burton
@@ -18,40 +18,40 @@
 ### Step 1:
 Have [Atom](https://atom.io/) already installed and clone this repository into Atom.
 
-![Guide1](img/GuideScreenshots/1.png)
+![Guide1](readme_imgs/1.png)
 
-![Guide2](img/GuideScreenshots/2.png)
+![Guide2](readme_imgs/2.png)
 
-![Guide3](img/GuideScreenshots/3.png)
+![Guide3](readme_imgs/3.png)
 
-![Guide4](img/GuideScreenshots/4.png)
+![Guide4](readme_imgs/4.png)
 
 ### Step 2:
 Once the repository is cloned, the necessary packages to run the website from Atom need be installed.
 
 To reach the packages option go to ***File->Settings->Packages***
 
-![Guide5](img/GuideScreenshots/5.png)
+![Guide5](readme_imgs/5.png)
 
 The first package to be installed is "emmet".
 
-![Guide6](img/GuideScreenshots/6.png)
+![Guide6](readme_imgs/6.png)
 
 The second package to be installed is "atom-live-server".
 
-![Guide7](img/GuideScreenshots/7.png)
+![Guide7](readme_imgs/7.png)
 
 ### Step 3:
 Once those two packages are installed you are ready to view the code.
 Open the index.html file and click on the Packages tab, atom-live-server, start server
 ***Packages->atom-live-server->Start server***
 
-![Guide8](img/GuideScreenshots/8.png)
+![Guide8](readme_imgs/8.png)
 
 ### Step 4:
 Once the liver server is started, it should open to your default web browser. The home screen to the webpage will display and from there you are able to use the website normally.
 
-![Guide9](img/GuideScreenshots/9.png)
+![Guide9](readme_imgs/9.png)
 
 ## What Was Used
 **Frameworks:** [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/), Unity <br />
